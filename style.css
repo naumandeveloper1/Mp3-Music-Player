@@ -1,0 +1,120 @@
+/*
+==========================
+Name: M Nauman Yousaf
+==========================
+====================================================
+    Github link: https://github.com/naumandeveloper1
+====================================================
+                    ==========================
+                    I am web application developer.
+                    ==========================
+Contact Us: 0301-1216608
+Whatsapp: 0301-1216608
+==========================
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./assert/song\ images/song (3).jpg") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.music {
+  width: 430px;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: none;
+}
+.imgcontainer {
+  width: 430px;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 2px dashed white;
+}
+.imgcontainer img {
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 50%;
+}
+
+.controls {
+  width: 430px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.controls .prev,
+.controls .play,
+.controls .next {
+  width: 80px;
+  height: 70px;
+  background: #ffffff;
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.animate {
+  animation: rotate 4s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
+.btn {
+  cursor: pointer;
+}
+.contact {
+  width: 387px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 130px;
+  left: 30px;
+  background: blue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 30px;
+}
+.none {
+  display: none !important;
+}
+.block {
+  display: block !important;
+}
